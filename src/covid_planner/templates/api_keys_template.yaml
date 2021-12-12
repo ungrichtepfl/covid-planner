@@ -1,0 +1,8 @@
+# NEVER push this to Github
+OpenWeatherMap:
+  Key: "Put your OWM API key here, visit: https://openweathermap.org/appid#:~:text=The%20API%20key%20is%20all,additional%20API%20keys%20if%20needed."
+Zoom:
+  Key: "Put your API key here, see fist part of tutorial: https://www.geeksforgeeks.org/how-to-create-a-meeting-with-zoom-api-in-python/"
+  Secret: "Put your zoom secret here"
+
+

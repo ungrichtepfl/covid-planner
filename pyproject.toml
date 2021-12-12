@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "covid-planner"
+version = "0.1.0"
+description = "Easily schedule meetings outside or via video call based on the weather outside."
+authors = ["Christoph Ungricht <christoph.ungricht@outlook.com>"]
+license = "GNU General Public License v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyowm = "^3.2.0"
+requests = "^2.26.0"
+PyJWT = "^2.3.0"
+emoji = "^1.6.1"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+covid-planner = "main:main"
