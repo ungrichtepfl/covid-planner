@@ -67,3 +67,5 @@ and secret. Copy the file `api_keys_template.yaml` found in `src/covid_planner/t
 in `config/api_keys.yaml`
 (create directory and file if not yet existing or run program once). Add the generated keys at the appropriate
 locations.
+
+**NEVER** commit this file to the remote repository!
